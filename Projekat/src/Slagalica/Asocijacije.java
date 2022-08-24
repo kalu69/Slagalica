@@ -236,7 +236,7 @@ public class Asocijacije extends JFrame {
 			@Override
 			public void run() {
 
-				for(int i=10;i>0;i--) {
+				for(int i=60;i>0;i--) {
 					tajmerLabel.setText(""+i);
 					try {
 						Thread.sleep(1000);
